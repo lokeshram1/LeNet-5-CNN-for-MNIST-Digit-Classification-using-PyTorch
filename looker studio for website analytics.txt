@@ -1,0 +1,29 @@
+looker studio for website analytics - Dashboard 
+
+GA4 - Current Issue
+I would like to add Average Engagement Time and App Store vs. Google Play split to the GA4 dashboard.
+It is impossible to add the App Store vs. Google Play split due to the current configuration of the tracking system since the latter does not provide any clear signal for which store is being used. There can be two explanations for that:
+Firstly, the website may fail to pass any store-specific data when the user clicks on the App Store or Google Play links and thus GA4 receives a mere click event, not a click event on one particular store or another.
+Secondly, the website might be passing this data successfully, however, GA4 might not be set up to show it, e.g., there might be no custom dimension of this parameter.
+
+Looker Studio - Potential Alternative
+
+Pro
+
+Easy collaboration and sharing – Dashboards can be shared between teammates and stakeholders, similar to Google Docs.
+
+Con
+
+Data sources limitations – Certain connectors and additional functionality would require third-party connectors.
+
+Potential Value
+
+We have been already using Looker Studio and it turned out to be quite helpful tool for creating and sharing analytic dashboards and reports.
+In case we decide to use Looker Studio, it is important to ensure that we will use it actively enough to get sufficient value from it as a single solution for reporting and analytics purposes instead of having the duplicated GA4 reporting.
+Looker Studio can serve as a replacement for developing flexible and shareable website analytic dashboards while keeping GA4 as the base data source.
+
+
+
+Professsor - user journey , intractions, downloading , workflow
+
+directly stored on excel,
